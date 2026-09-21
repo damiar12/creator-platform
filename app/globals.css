@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { border-color: #24262d; }
+body { color: #f7f7f5; background: #090a0d; }
+::selection { background: #c9ff63; color: #090a0d; }
+.grid-bg { background-image: linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px), linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px); background-size: 34px 34px; }
